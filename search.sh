@@ -53,7 +53,7 @@ JSON='{
   "query": {
     "bool": {
       "must": [
-        { "range": { "startDate": { "lte": "2020-11-08" } } }
+        { "prefix": { "attributes.covfefe": "se" } }
       ]
     }
   },
